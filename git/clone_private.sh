@@ -10,9 +10,9 @@ if ! ${cloning_status}; then
 	echo "An error has occured."
 
 	exit 1
-else
-	echo
-	echo "Repository was cloned successfully!"
-
-	exit 0
 fi
+
+echo
+echo "Repository was cloned successfully!"
+
+exit 0
