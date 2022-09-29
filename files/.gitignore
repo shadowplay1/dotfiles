@@ -1,0 +1,15 @@
+node_modules/
+
+.DS_Store
+desktop.ini
+
+Thumbs.db
+*.sqlite
+
+tmp/
+dist/
+
+*.sw[nop]
+*.log
+
+.env

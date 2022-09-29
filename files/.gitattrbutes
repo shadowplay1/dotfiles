@@ -1,0 +1,4 @@
+* text eol=lf
+
+*.{js,ts,jsx,tsx} text eol=lf
+
