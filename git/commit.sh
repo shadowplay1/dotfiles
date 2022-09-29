@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 read -p "Enter a commit message: " commit_message
 echo
 

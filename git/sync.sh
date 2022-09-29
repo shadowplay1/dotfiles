@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 MAIN_BRANCH_NAME="main"
 
 fetched=$(git fetch --p origin > /dev/null 2>&1)

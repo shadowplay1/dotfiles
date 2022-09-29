@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 # constants
 
 BASE_GITHUB_USERNAME="shadowplay1"

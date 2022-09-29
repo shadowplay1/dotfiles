@@ -1,3 +1,5 @@
+#!/usr/bin/bash
+
 BASE_USERNAME="shadowplay1"
 
 read -p "Enter a repository you want to clone: " repo_name
