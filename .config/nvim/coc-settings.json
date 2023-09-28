@@ -1,0 +1,22 @@
+{
+  "languageserver": {
+    "tsserver": {
+      "command": "tsserver",
+      "filetypes": ["javascript", "javascriptreact", "javascript.jsx", "typescript", "typescriptreact", "typescript.tsx"],
+      "rootPatterns": ["package.json", "tsconfig.json", "jsconfig.json", ".git"],
+      "settings": {
+        "typescript.validate.enable": true,
+        "javascript.validate.enable": true,
+        "editor.suggest.snippetIndicator": "",
+        "editor.suggest.autoTrigger": "always",
+        "editor.hover.enabled": true,
+		"editor.hover.autoOpen": true,
+        "editor.signatureHelp.enabled": true,
+		"editor.suggest.triggerAutoTriggerAfter": 50,
+		"editor.hover.autoOpenDelay": 50,
+        "editor.signatureHelp.triggerCharacters": ["(", ",", "<"]
+      }
+    }
+  }
+}
+
