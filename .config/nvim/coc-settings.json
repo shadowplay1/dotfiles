@@ -7,14 +7,14 @@
       "settings": {
         "typescript.validate.enable": true,
         "javascript.validate.enable": true,
-        "editor.suggest.snippetIndicator": "",
-        "editor.suggest.autoTrigger": "always",
-        "editor.hover.enabled": true,
-		"editor.hover.autoOpen": true,
-        "editor.signatureHelp.enabled": true,
-		"editor.suggest.triggerAutoTriggerAfter": 50,
-		"editor.hover.autoOpenDelay": 50,
-        "editor.signatureHelp.triggerCharacters": ["(", ",", "<"]
+        "editor.suggest.snippetIndicator": "", // Customize the snippet indicator icon
+        "editor.suggest.autoTrigger": "always", // Enable auto-completion on typing
+        "editor.hover.enabled": true, // Enable hover documentation
+	"editor.hover.autoOpen": true,
+        "editor.signatureHelp.enabled": true, // Enable documentation when inserting arguments
+	"editor.suggest.triggerAutoTriggerAfter": 50,
+	"editor.hover.autoOpenDelay": 50,
+        "editor.signatureHelp.triggerCharacters": ["(", ",", "<"] // Customize characters that trigger argument documentation
       }
     }
   }
