@@ -7,11 +7,12 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'styled-components/vim-styled-components'  " For styled components support
 Plug 'dense-analysis/ale'
 
-" File tree & tabs
+" File tree & tabs & Git stuff support
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
+Plug 'tpope/vim-fugitive'
 
 " Code completion and LSP (Language Server Protocol) setup
 Plug 'neoclide/coc.nvim', { 'branch': 'release' }
