@@ -107,5 +107,8 @@ nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
 
-" Start NERDTree and put the cursor back in the other window.
+" Start NERDTree and put the cursor back in the other window
 autocmd VimEnter * NERDTree | wincmd p
+
+" Refresh NERDTree and put the cursor back in the other window
+nmap <Leader>r :NERDTreeFocus<cr> \| R \| <c-w><c-p>
